@@ -1,0 +1,25 @@
+#!/bin/bash
+if [ -f "../../CMakeLists.txt" ] ; then
+	# jms in source build
+	
+	if [ -d "../../__binaries" ] ; then
+		rm -rf ../../__binaries
+	fi
+
+	if [ -d "../../__libraries" ] ; then
+		rm -rf ../../__libraries
+	fi
+
+else
+	# jsm out source build
+	if [ -d "__binaries" ] ; then
+		rm -rf __binaries
+	fi
+
+	if [ -d "__libraries" ] ; then
+		rm -rf __libraries
+	fi
+fi
+
+rm -rf *
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make distclean
+rm *.log
+rm *.user
+
