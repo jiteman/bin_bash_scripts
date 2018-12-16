@@ -1,0 +1,2 @@
+cls
+jom -j%NUMBER_OF_PROCESSORS%
