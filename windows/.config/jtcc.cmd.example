@@ -1,0 +1,3 @@
+SET TCC_ROOT=C:\devopt\tcc
+SET PATH=%TCC_ROOT%;%PATH%
+SET TCC_ROOT=
