@@ -1,0 +1,1 @@
+JMSD_BIN_ROOT=C:\bin
