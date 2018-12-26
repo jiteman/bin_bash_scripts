@@ -1,4 +1,4 @@
 @echo off
 
-git-pull
-git-pull-submodules
+call git-pull
+call git-pull-submodules
