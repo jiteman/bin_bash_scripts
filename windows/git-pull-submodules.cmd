@@ -1,3 +1,5 @@
 @echo off
 
-git submodule update --recursive --remote
+git submodule update --recursive --remote --merge
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull
