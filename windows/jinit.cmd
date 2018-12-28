@@ -8,6 +8,6 @@ call %JMSD_BIN_ROOT%/.config/jvc
 call %JMSD_BIN_ROOT%/.config/jqt
 call %JMSD_BIN_ROOT%/.config/jjom
 call %JMSD_BIN_ROOT%/.config/jtcc
-call %JMSD_BIN_ROOT%/.config/set_working_directory
+call %JMSD_BIN_ROOT%/.config/set_starting_directory
 
 set JMSD_BIN_ROOT=
