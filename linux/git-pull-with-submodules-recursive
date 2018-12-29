@@ -1,0 +1,8 @@
+for directory in pwd/*; do
+	if [ -d "$directory" ]; then
+		echo [git pull with submodules]: $directory
+		cd $directory
+		git-pull-with-submodules
+		cd ..
+	fi
+done
