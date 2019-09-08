@@ -1,0 +1,8 @@
+for d in ./*; do
+	if [ -d "$d" ]; then
+		echo [git pull with submodules]: $d
+		cd $d
+		git-pull-with-submodules
+		cd ..
+	fi
+done
