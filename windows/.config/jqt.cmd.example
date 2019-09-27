@@ -1,1 +1,1 @@
-call .config/jqt-init-5.11.3
+call %JMSD_BIN_ROOT%/.config/jqt-init-5.13.1

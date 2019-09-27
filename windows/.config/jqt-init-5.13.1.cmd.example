@@ -1,4 +1,4 @@
-SET QT_ROOT=C:\devopt\Qt\Qt5.11.3\5.11.3\msvc2017_64
+SET QT_ROOT=C:\devopt\Qt\Qt5.13.1\5.13.1\msvc2017_64
 SET PATH=%QT_ROOT%\bin;%PATH%
 REM Uncomment the below line when using a git checkout of the source repository
 SET QMAKESPEC=win32-msvc2017
