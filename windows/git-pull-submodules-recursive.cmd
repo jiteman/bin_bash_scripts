@@ -1,8 +1,5 @@
 @echo off
 
-FOR /D %%F IN ( "*.*" ) DO (
-	echo [git pull with submodules]: %%~nxF
-	cd %%~nxF
-	call git-pull-with-submodules
-	cd ..
-)
+git submodule update --recursive --remote --merge
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull
