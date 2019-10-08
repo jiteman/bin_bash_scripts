@@ -1,8 +1,3 @@
-for d in ./*; do
-	if [ -d "$d" ]; then
-		echo [git pull with submodules]: $d
-		cd $d
-		git-pull-with-submodules
-		cd ..
-	fi
-done
+git submodule update --recursive --remote --merge
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull
