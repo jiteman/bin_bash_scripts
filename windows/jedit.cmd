@@ -1,1 +1,1 @@
-start notepad++ %1 > nul
+@start notepad++ %1 > nul
