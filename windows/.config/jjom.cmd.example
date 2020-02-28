@@ -1,3 +1,3 @@
-SET JOM_ROOT=C:\devopt\Qt\jom
+SET JOM_ROOT=C:\programs\qt\jom
 SET PATH=%JOM_ROOT%;%PATH%
 SET JOM_ROOT=
