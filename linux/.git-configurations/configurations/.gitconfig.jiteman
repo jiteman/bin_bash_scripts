@@ -1,0 +1,11 @@
+[credential "https://github.com"]
+	username = jiteman
+[user]
+	name = jiteman
+	email = jiteman@gmail.com
+[push]
+	default = simple
+[core]
+	askpass =
+	editor = xed
+	autocrlf = input

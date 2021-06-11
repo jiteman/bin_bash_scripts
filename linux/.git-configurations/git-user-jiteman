@@ -1,0 +1,3 @@
+cp ~/bin/.git-configurations/configurations/.gitconfig.jiteman ~/.gitconfig
+git-user-who
+

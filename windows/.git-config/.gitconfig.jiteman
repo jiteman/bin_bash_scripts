@@ -1,0 +1,25 @@
+[user]
+	name = jiteman
+	email = jiteman@gmail.com
+[credential "https://github.com"]
+	username = jiteman
+[core]
+	askpass = 
+	editor = \"C:/Program Files/notepad++/notepad++.exe\" -multiInst -nosession
+	autocrlf = true
+[merge]
+	tool = winmerge
+[mergetool "winmerge"]
+	path = C:/Program Files/WinMerge/winmergeu.exe
+	cmd = \"C:/Program Files/WinMerge/winmergeu.exe\" -e -u  -wl -wr -fm -dl \"Mine: $LOCAL\" -dm \"Merged: $BASE\" -dr \"Theirs: $REMOTE\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" -o \"$MERGED\"
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[diff]
+	guitool = winmerge
+[difftool "winmerge"]
+	path = C:/Program Files/WinMerge/winmergeu.exe
+	cmd = \"C:/Program Files/WinMerge/winmergeu.exe\" -e -u \"$LOCAL\" \"$REMOTE\"

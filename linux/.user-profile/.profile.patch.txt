@@ -1,0 +1,14 @@
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin/.git-configurations" ] ; then
+    PATH="$HOME/bin/.git-configurations:$PATH"
+fi
+
+if [ -d "/opt/Qt/5.15.2/gcc_64/bin" ] ; then
+	PATH="/opt/Qt/5.15.2/gcc_64/bin:$PATH"
+fi
+
