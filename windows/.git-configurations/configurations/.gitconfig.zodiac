@@ -1,6 +1,6 @@
 [user]
-	name = evgsha
-	email = evgenii.shalukhin@wartsila.com
+	name = eugene.shaluhin
+	email = eugene.shaluhin@orioninc.com
 [core]
 	askpass = 
 	editor = \"C:/Program Files/notepad++/notepad++.exe\" -multiInst -nosession
