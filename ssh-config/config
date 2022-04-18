@@ -1,6 +1,6 @@
 Host github.com
 	User git
 	Hostname github.com
-	IdentityFile ~/.ssh/id-ed-jiteman-github
+	IdentityFile ~/.ssh/ed-github-jiteman-yandex
 	IdentitiesOnly yes
 	

@@ -1,0 +1,3 @@
+cp ~/bin/.git-configurations/configurations/.gitconfig.protei ~/.gitconfig
+git-user-who
+
