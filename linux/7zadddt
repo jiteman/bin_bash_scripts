@@ -2,5 +2,5 @@
 
 today=$(date +-%Y-%m-%d-%H%M)
 echo "today is $today"
-7z a -t7z -m0=lzma2 -mx=9 -mmt=on -ms=on "$1$today.7z" $1 -xr!.svn
+7z a -t7z -m0=lzma2 -mx=9 -mmt=on -ms=on "$1$today.7z" $1
 
