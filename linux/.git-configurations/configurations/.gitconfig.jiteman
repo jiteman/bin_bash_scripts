@@ -3,6 +3,8 @@
 [user]
 	name = jiteman
 	email = jiteman.ru@ya.ru
+[pull]
+	rebase = true
 [push]
 	default = simple
 [core]

@@ -1,3 +1,13 @@
+[credential "https://git.protei.ru"]
+	username = shaluhin
 [user]
-	name = eugene.shaluhin
+	name = Eugene Shaluhin
 	email = shaluhin@protei-lab.ru
+[pull]
+	rebase = true
+[push]
+	default = simple
+[core]
+	askpass =
+	editor = gedit
+	autocrlf = input
