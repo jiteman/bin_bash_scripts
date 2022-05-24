@@ -1,1 +1,2 @@
-git submodule foreach git checkout master
+export top=`pwd`
+git submodule foreach 'branch_name=$(git config -f ${top}/.gitmodules --get submodule.$name.branch); git checkout $branch_name'
