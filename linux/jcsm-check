@@ -1,0 +1,5 @@
+#!/bin/bash
+
+NUMBER_OF_PROCESSORS=`lscpu -b -p=Core,Socket | grep -v '^#' | sort -u | wc -l`
+echo $NUMBER_OF_PROCESSORS
+
